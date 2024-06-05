@@ -6,6 +6,32 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+## Instal·lació
+```bash
+https://github.com/alexgertrudis/M7UF2-extraordinaria.git
+```
+2. Instal·la les dependències del projecte utilitzant Composer:
+
+```bash
+composer install
+```
+3. Copia l'arxiu `.env.example` i reanomena'l a `.env`. Llavors, configura les variables d'entorn necessàries, com la connexió a la base de dades i les credencials de l'API de Discord.
+
+4. Genera una nova clau d'aplicació amb la comanda `php artisan key:generate`.
+
+5. Executa les migracions de la base de dades per crear les taules necessàries:
+
+```bash
+php artisan migrate
+```
+```bash
+php artisan db:seed
+```
+6. Obrir localhost:8000
+```bash
+php artisan serve
+```
+
 
 ## About Laravel
 
